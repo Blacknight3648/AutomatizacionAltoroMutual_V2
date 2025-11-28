@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="27.354">
+    <testcase classname="Validar transferencia entre mis cuentas" name="Transferencia entre mis cuentas" time="10.525">
+        <system-out><![CDATA[Given que puedo acceder a la url "https://demo.testfire.net/"...............passed
+And puedo ingresar a mi aplicacion con mi usuario y mi password 1...........passed
+When da click en el enlace de transferencia de fondos "Transfer Funds"......passed
+And selecciono la cuenta de origen y destino 1..............................passed
+And coloco el monto a transferir 1..........................................passed
+And da click en el boton de transferencia "//input[@id='transfer']".........passed
+Then muestra mensaje de transferencia correcta 1............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validar transferencia entre mis cuentas" name="Transferencia entre mis cuentas 2" time="8.596">
+        <system-out><![CDATA[Given que puedo acceder a la url "https://demo.testfire.net/"...............passed
+And puedo ingresar a mi aplicacion con mi usuario y mi password 2...........passed
+When da click en el enlace de transferencia de fondos "Transfer Funds"......passed
+And selecciono la cuenta de origen y destino 2..............................passed
+And coloco el monto a transferir 2..........................................passed
+And da click en el boton de transferencia "//input[@id='transfer']".........passed
+Then muestra mensaje de transferencia correcta 2............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validar transferencia entre mis cuentas" name="Transferencia entre mis cuentas 3" time="7.95">
+        <system-out><![CDATA[Given que puedo acceder a la url "https://demo.testfire.net/"...............passed
+And puedo ingresar a mi aplicacion con mi usuario y mi password 5...........passed
+When da click en el enlace de transferencia de fondos "Transfer Funds"......passed
+And selecciono la cuenta de origen y destino 5..............................passed
+And coloco el monto a transferir 5..........................................passed
+And da click en el boton de transferencia "//input[@id='transfer']".........passed
+Then muestra mensaje de transferencia correcta 5............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
