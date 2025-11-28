@@ -1,4 +1,4 @@
-package com.duoc.Transferencias;
+package com.duoc.Steps.Transferencias;
 
 import com.duoc.Utilidades.ExcelUtils;
 import com.duoc.Utilidades.ScreensUtils;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 
-import static com.duoc.Commons_hook.CommonsDriverSteps.driver;
+import static com.duoc.Steps.Commons_hook.CommonsDriverSteps.driver;
 
 
 public class TransferirFondosSteps {

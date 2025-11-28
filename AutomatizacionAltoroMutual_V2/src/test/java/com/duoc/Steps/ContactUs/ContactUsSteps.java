@@ -1,4 +1,4 @@
-package com.duoc.ContactUs;
+package com.duoc.Steps.ContactUs;
 
 import com.duoc.Utilidades.ExcelUtils;
 import com.duoc.Utilidades.ScreensUtils;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 
-import static com.duoc.Commons_hook.CommonsDriverSteps.driver;
+import static com.duoc.Steps.Commons_hook.CommonsDriverSteps.driver;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ContactUsSteps {

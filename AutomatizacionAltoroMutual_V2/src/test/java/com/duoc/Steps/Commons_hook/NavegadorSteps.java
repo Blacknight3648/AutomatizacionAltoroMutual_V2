@@ -1,4 +1,4 @@
-package com.duoc.Commons_hook;
+package com.duoc.Steps.Commons_hook;
 import io.cucumber.java.en.Given;
 import static com.duoc.Commons_hook.CommonsDriverSteps.driver;
 
