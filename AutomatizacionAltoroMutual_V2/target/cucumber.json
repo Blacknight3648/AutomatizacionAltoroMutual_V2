@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1027100,
+              "duration": 1022100,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1192194300,
+              "duration": 1247461300,
               "status": "passed"
             },
             "line": 7,
@@ -42,24 +42,24 @@
         ]
       },
       {
-        "start_timestamp": "2025-11-28T21:32:42.895Z",
+        "start_timestamp": "2025-11-28T22:30:51.810Z",
         "before": [
           {
             "result": {
-              "duration": 351654100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1187665000,
+              "duration": 1265998100,
               "status": "passed"
             },
             "match": {
               "location": "com.duoc.Steps.Commons_hook.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 392229500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
             }
           }
         ],
@@ -70,7 +70,7 @@
         "after": [
           {
             "result": {
-              "duration": 132385900,
+              "duration": 226156800,
               "status": "passed"
             },
             "match": {
@@ -83,7 +83,7 @@
         "steps": [
           {
             "result": {
-              "duration": 533074600,
+              "duration": 559893000,
               "status": "passed"
             },
             "line": 10,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 346890900,
+              "duration": 372749400,
               "status": "passed"
             },
             "line": 11,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 255267400,
+              "duration": 300764600,
               "status": "passed"
             },
             "line": 12,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 220034000,
+              "duration": 248598100,
               "status": "passed"
             },
             "line": 13,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 233808600,
+              "duration": 259879000,
               "status": "passed"
             },
             "line": 14,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 265440600,
+              "duration": 265507200,
               "status": "passed"
             },
             "line": 15,
@@ -179,8 +179,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]\"}\n  (Session info: chrome\u003d142.0.7444.176)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SEDIJB4\u0027, ip: \u0027192.168.1.86\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002724.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50530}, goog:processID: 19372, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ffef3f89a469ad5080862cf7e5257777\n*** Element info: {Using\u003dxpath, value\u003d/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)\r\n\tat ✽.el usuario envía el formulario de contacto(file:///C:/Users/blacknight/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:16)\r\n",
-              "duration": 5261660900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]\"}\n  (Session info: chrome\u003d142.0.7444.176)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SOLGREY\u0027, ip: \u0027192.168.1.85\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002724.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62597}, goog:processID: 13836, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 58fe2fb36bfe8816775f549c6a94448d\n*** Element info: {Using\u003dxpath, value\u003d/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)\r\n\tat ✽.el usuario envía el formulario de contacto(file:///C:/Users/GAMER/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:16)\r\n",
+              "duration": 5233071600,
               "status": "failed"
             },
             "line": 16,
@@ -223,6 +223,7 @@
         "steps": [
           {
             "result": {
+              "duration": 510300,
               "status": "passed"
             },
             "line": 6,
@@ -234,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 1081432000,
+              "duration": 1144840800,
               "status": "passed"
             },
             "line": 7,
@@ -253,24 +254,24 @@
         ]
       },
       {
-        "start_timestamp": "2025-11-28T21:32:52.949Z",
+        "start_timestamp": "2025-11-28T22:31:02.259Z",
         "before": [
           {
             "result": {
-              "duration": 22517300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
-            }
-          },
-          {
-            "result": {
-              "duration": 650976700,
+              "duration": 852329300,
               "status": "passed"
             },
             "match": {
               "location": "com.duoc.Steps.Commons_hook.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 86911700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
             }
           }
         ],
@@ -281,7 +282,7 @@
         "after": [
           {
             "result": {
-              "duration": 124575400,
+              "duration": 197951300,
               "status": "passed"
             },
             "match": {
@@ -294,7 +295,7 @@
         "steps": [
           {
             "result": {
-              "duration": 511793400,
+              "duration": 537484000,
               "status": "passed"
             },
             "line": 10,
@@ -306,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 347186700,
+              "duration": 348878900,
               "status": "passed"
             },
             "line": 11,
@@ -318,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 230863200,
+              "duration": 275011200,
               "status": "passed"
             },
             "line": 12,
@@ -336,7 +337,7 @@
           },
           {
             "result": {
-              "duration": 311388700,
+              "duration": 283042500,
               "status": "passed"
             },
             "line": 13,
@@ -354,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 232470100,
+              "duration": 268697100,
               "status": "passed"
             },
             "line": 14,
@@ -372,7 +373,7 @@
           },
           {
             "result": {
-              "duration": 213475600,
+              "duration": 265791600,
               "status": "passed"
             },
             "line": 15,
@@ -390,8 +391,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]\"}\n  (Session info: chrome\u003d142.0.7444.176)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SEDIJB4\u0027, ip: \u0027192.168.1.86\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002724.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50556}, goog:processID: 2484, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: eaeaa97012994b9aaf5c26ae0886f7ec\n*** Element info: {Using\u003dxpath, value\u003d/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)\r\n\tat ✽.el usuario envía el formulario de contacto(file:///C:/Users/blacknight/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:16)\r\n",
-              "duration": 5240008800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]\"}\n  (Session info: chrome\u003d142.0.7444.176)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SOLGREY\u0027, ip: \u0027192.168.1.85\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002724.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49755}, goog:processID: 6924, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bed49904b9e5212b492b4b2d196e6e01\n*** Element info: {Using\u003dxpath, value\u003d/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)\r\n\tat ✽.el usuario envía el formulario de contacto(file:///C:/Users/GAMER/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:16)\r\n",
+              "duration": 5265331200,
               "status": "failed"
             },
             "line": 16,
@@ -434,6 +435,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1637300,
               "status": "passed"
             },
             "line": 6,
@@ -445,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 1068961600,
+              "duration": 1256361300,
               "status": "passed"
             },
             "line": 7,
@@ -464,24 +466,24 @@
         ]
       },
       {
-        "start_timestamp": "2025-11-28T21:33:01.928Z",
+        "start_timestamp": "2025-11-28T22:31:11.798Z",
         "before": [
           {
             "result": {
-              "duration": 19458900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
-            }
-          },
-          {
-            "result": {
-              "duration": 632915600,
+              "duration": 749823800,
               "status": "passed"
             },
             "match": {
               "location": "com.duoc.Steps.Commons_hook.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40034900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
             }
           }
         ],
@@ -492,7 +494,7 @@
         "after": [
           {
             "result": {
-              "duration": 116453400,
+              "duration": 222108300,
               "status": "passed"
             },
             "match": {
@@ -505,7 +507,7 @@
         "steps": [
           {
             "result": {
-              "duration": 492189000,
+              "duration": 521352600,
               "status": "passed"
             },
             "line": 25,
@@ -517,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 338613600,
+              "duration": 353446100,
               "status": "passed"
             },
             "line": 26,
@@ -529,7 +531,7 @@
           },
           {
             "result": {
-              "duration": 228545100,
+              "duration": 292433500,
               "status": "passed"
             },
             "line": 27,
@@ -547,7 +549,7 @@
           },
           {
             "result": {
-              "duration": 213054500,
+              "duration": 236731300,
               "status": "passed"
             },
             "line": 28,
@@ -565,7 +567,7 @@
           },
           {
             "result": {
-              "duration": 215562900,
+              "duration": 236910700,
               "status": "passed"
             },
             "line": 29,
@@ -583,7 +585,7 @@
           },
           {
             "result": {
-              "duration": 213907300,
+              "duration": 271502000,
               "status": "passed"
             },
             "line": 30,
@@ -601,7 +603,7 @@
           },
           {
             "result": {
-              "duration": 201040800,
+              "duration": 226907100,
               "status": "passed"
             },
             "line": 31,
@@ -613,7 +615,7 @@
           },
           {
             "result": {
-              "duration": 53855900,
+              "duration": 131670600,
               "status": "passed"
             },
             "line": 32,
@@ -650,7 +652,7 @@
           },
           {
             "result": {
-              "duration": 1198104700,
+              "duration": 1242823900,
               "status": "passed"
             },
             "line": 7,
@@ -669,24 +671,24 @@
         ]
       },
       {
-        "start_timestamp": "2025-11-28T21:33:05.735Z",
+        "start_timestamp": "2025-11-28T22:31:16.357Z",
         "before": [
           {
             "result": {
-              "duration": 17951400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
-            }
-          },
-          {
-            "result": {
-              "duration": 635657800,
+              "duration": 683981900,
               "status": "passed"
             },
             "match": {
               "location": "com.duoc.Steps.Commons_hook.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 36631000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.duoc.Steps.Commons_hook.Hooks.setUpContactUsData()"
             }
           }
         ],
@@ -697,7 +699,7 @@
         "after": [
           {
             "result": {
-              "duration": 112213400,
+              "duration": 206788300,
               "status": "passed"
             },
             "match": {
@@ -710,7 +712,7 @@
         "steps": [
           {
             "result": {
-              "duration": 501662000,
+              "duration": 528796600,
               "status": "passed"
             },
             "line": 39,
@@ -722,7 +724,7 @@
           },
           {
             "result": {
-              "duration": 327114000,
+              "duration": 378484200,
               "status": "passed"
             },
             "line": 40,
@@ -734,7 +736,7 @@
           },
           {
             "result": {
-              "duration": 276504300,
+              "duration": 277059000,
               "status": "passed"
             },
             "line": 41,
@@ -752,7 +754,7 @@
           },
           {
             "result": {
-              "duration": 217778300,
+              "duration": 253103900,
               "status": "passed"
             },
             "line": 42,
@@ -770,7 +772,7 @@
           },
           {
             "result": {
-              "duration": 220515600,
+              "duration": 237369700,
               "status": "passed"
             },
             "line": 43,
@@ -788,7 +790,7 @@
           },
           {
             "result": {
-              "duration": 227153900,
+              "duration": 237915800,
               "status": "passed"
             },
             "line": 44,
@@ -806,8 +808,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]\"}\n  (Session info: chrome\u003d142.0.7444.176)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SEDIJB4\u0027, ip: \u0027192.168.1.86\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002724.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50602}, goog:processID: 17528, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4dff4d80e8336504f68bc99b41febb9c\n*** Element info: {Using\u003dxpath, value\u003d/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)\r\n\tat ✽.el usuario envía el formulario de contacto(file:///C:/Users/blacknight/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:45)\r\n",
-              "duration": 5221608100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]\"}\n  (Session info: chrome\u003d142.0.7444.176)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SOLGREY\u0027, ip: \u0027192.168.1.85\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002724.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58724}, goog:processID: 18796, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2d15a2d16920ee1fe83c1aa9ee86fdeb\n*** Element info: {Using\u003dxpath, value\u003d/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)\r\n\tat ✽.el usuario envía el formulario de contacto(file:///C:/Users/GAMER/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:45)\r\n",
+              "duration": 5212252700,
               "status": "failed"
             },
             "line": 45,
