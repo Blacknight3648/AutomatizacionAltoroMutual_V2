@@ -1,33 +1,133 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="27.354">
-    <testcase classname="Validar transferencia entre mis cuentas" name="Transferencia entre mis cuentas" time="10.525">
-        <system-out><![CDATA[Given que puedo acceder a la url "https://demo.testfire.net/"...............passed
-And puedo ingresar a mi aplicacion con mi usuario y mi password 1...........passed
-When da click en el enlace de transferencia de fondos "Transfer Funds"......passed
-And selecciono la cuenta de origen y destino 1..............................passed
-And coloco el monto a transferir 1..........................................passed
-And da click en el boton de transferencia "//input[@id='transfer']".........passed
-Then muestra mensaje de transferencia correcta 1............................passed
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="31.994">
+    <testcase classname="Contactar con AltoroMutual a través del formulario Contact Us" name="Enviar formulario de contacto correctamente" time="10.039">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]&quot;}&#10;  (Session info: chrome=142.0.7444.176)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-SEDIJB4', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50530}, goog:processID: 19372, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ffef3f89a469ad5080862cf7e5257777&#10;*** Element info: {Using=xpath, value=/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given el navegador está abierto.............................................passed
+And que puedo acceder a la url "https://demo.testfire.net/".................passed
+When el usuario accede a la opción Contact Us...............................passed
+And el usuario abre el formulario de contacto...............................passed
+And el usuario ingresa el nombre de la fila "1".............................passed
+And el usuario ingresa el email de la fila "1"..............................passed
+And el usuario ingresa el propósito de la fila "1"..........................passed
+And el usuario ingresa los comentarios de la fila "1".......................passed
+And el usuario envía el formulario de contacto..............................failed
+Then debería mostrarse confirmación de envío exitoso para la fila "1".......skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SEDIJB4', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50530}, goog:processID: 19372, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffef3f89a469ad5080862cf7e5257777
+*** Element info: {Using=xpath, value=/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)
+	at ✽.el usuario envía el formulario de contacto(file:///C:/Users/blacknight/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:16)
+]]></failure>
+    </testcase>
+    <testcase classname="Contactar con AltoroMutual a través del formulario Contact Us" name="Enviar formulario de contacto correctamente 2" time="8.972">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]&quot;}&#10;  (Session info: chrome=142.0.7444.176)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-SEDIJB4', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50556}, goog:processID: 2484, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eaeaa97012994b9aaf5c26ae0886f7ec&#10;*** Element info: {Using=xpath, value=/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given el navegador está abierto.............................................passed
+And que puedo acceder a la url "https://demo.testfire.net/".................passed
+When el usuario accede a la opción Contact Us...............................passed
+And el usuario abre el formulario de contacto...............................passed
+And el usuario ingresa el nombre de la fila "2".............................passed
+And el usuario ingresa el email de la fila "2"..............................passed
+And el usuario ingresa el propósito de la fila "2"..........................passed
+And el usuario ingresa los comentarios de la fila "2".......................passed
+And el usuario envía el formulario de contacto..............................failed
+Then debería mostrarse confirmación de envío exitoso para la fila "2".......skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SEDIJB4', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50556}, goog:processID: 2484, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eaeaa97012994b9aaf5c26ae0886f7ec
+*** Element info: {Using=xpath, value=/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)
+	at ✽.el usuario envía el formulario de contacto(file:///C:/Users/blacknight/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:16)
+]]></failure>
+    </testcase>
+    <testcase classname="Contactar con AltoroMutual a través del formulario Contact Us" name="Limpiar formulario de contacto" time="3.802">
+        <system-out><![CDATA[Given el navegador está abierto.............................................passed
+And que puedo acceder a la url "https://demo.testfire.net/".................passed
+When el usuario accede a la opción Contact Us...............................passed
+And el usuario abre el formulario de contacto...............................passed
+And el usuario ingresa el nombre de la fila "1".............................passed
+And el usuario ingresa el email de la fila "1"..............................passed
+And el usuario ingresa el propósito de la fila "1"..........................passed
+And el usuario ingresa los comentarios de la fila "1".......................passed
+And el usuario limpia el formulario.........................................passed
+Then todos los campos deberían estar vacíos.................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validar transferencia entre mis cuentas" name="Transferencia entre mis cuentas 2" time="8.596">
-        <system-out><![CDATA[Given que puedo acceder a la url "https://demo.testfire.net/"...............passed
-And puedo ingresar a mi aplicacion con mi usuario y mi password 2...........passed
-When da click en el enlace de transferencia de fondos "Transfer Funds"......passed
-And selecciono la cuenta de origen y destino 2..............................passed
-And coloco el monto a transferir 2..........................................passed
-And da click en el boton de transferencia "//input[@id='transfer']".........passed
-Then muestra mensaje de transferencia correcta 2............................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Validar transferencia entre mis cuentas" name="Transferencia entre mis cuentas 3" time="7.95">
-        <system-out><![CDATA[Given que puedo acceder a la url "https://demo.testfire.net/"...............passed
-And puedo ingresar a mi aplicacion con mi usuario y mi password 5...........passed
-When da click en el enlace de transferencia de fondos "Transfer Funds"......passed
-And selecciono la cuenta de origen y destino 5..............................passed
-And coloco el monto a transferir 5..........................................passed
-And da click en el boton de transferencia "//input[@id='transfer']".........passed
-Then muestra mensaje de transferencia correcta 5............................passed
-]]></system-out>
+    <testcase classname="Contactar con AltoroMutual a través del formulario Contact Us" name="Enviar formulario con campos inválidos" time="8.962">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]&quot;}&#10;  (Session info: chrome=142.0.7444.176)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-SEDIJB4', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50602}, goog:processID: 17528, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4dff4d80e8336504f68bc99b41febb9c&#10;*** Element info: {Using=xpath, value=/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given el navegador está abierto.............................................passed
+And que puedo acceder a la url "https://demo.testfire.net/".................passed
+When el usuario accede a la opción Contact Us...............................passed
+And el usuario abre el formulario de contacto...............................passed
+And el usuario ingresa el nombre de la fila "3".............................passed
+And el usuario ingresa el email de la fila "3"..............................passed
+And el usuario ingresa el propósito de la fila "3"..........................passed
+And el usuario ingresa los comentarios de la fila "3".......................passed
+And el usuario envía el formulario de contacto..............................failed
+Then deberían mostrarse mensajes de error por campos inválidos..............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SEDIJB4', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/chrome-test-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50602}, goog:processID: 17528, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dff4d80e8336504f68bc99b41febb9c
+*** Element info: {Using=xpath, value=/html/body/table/tbody/tr[2]/td[2]/div/form/table/tbody/tr[6]/td[2]/input[1]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.duoc.Steps.ContactUs.ContactUsSteps.enviarFormulario(ContactUsSteps.java:105)
+	at ✽.el usuario envía el formulario de contacto(file:///C:/Users/blacknight/IdeaProjects/AutomatizacionAltoroMutual_V2/AutomatizacionAltoroMutual_V2/src/test/resources/features/ContactUs.feature:45)
+]]></failure>
     </testcase>
 </testsuite>

@@ -1,6 +1,6 @@
 package com.duoc.Steps.Commons_hook;
 import io.cucumber.java.en.Given;
-import static com.duoc.Commons_hook.CommonsDriverSteps.driver;
+import static com.duoc.Steps.Commons_hook.CommonsDriverSteps.driver;
 
 
 public class NavegadorSteps {

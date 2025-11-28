@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.duoc.Commons_hook.CommonsDriverSteps.driver;
+import static com.duoc.Steps.Commons_hook.CommonsDriverSteps.driver;
 
 public class Hooks {
 

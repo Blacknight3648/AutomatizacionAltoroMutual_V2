@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ={ "src/test/resources/features/TransferirFondos.feature",
-                "src/test/resources/features/ContactUs.feature"},
-        glue = {"com.duoc"},
+        features = "src/test/resources/features/TransferirFondos.feature",
+
+        glue = {"com.duoc.Steps"},
         plugin = {
                 "pretty",
                 "json:target/cucumber.json",
@@ -18,5 +18,5 @@ import org.junit.runner.RunWith;
         monochrome = true
 )
 
-public class Runner {
+public class RunnerTransferencia {
 }
